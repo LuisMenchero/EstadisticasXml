@@ -5,31 +5,191 @@
         <nombre>LuisRx8</nombre>
 
         <ninisJugados>
-            <nini tipoNini="">
+            <nini tipoNini="LUIS" imagen="Animaciones/Ninis/Lis.gif">
+
+            
+                <nombre>-- LUIS --  </nombre>
+
+                <descripcion>  Es Luis y roba butanitos </descripcion>
+
+                <coste> 50 </coste>
+
+                <vida>75 </vida>
+
+                <alcanceAtaque>Genero Butanitos</alcanceAtaque>
+
+                <radioAtaque>No tengo</radioAtaque>
+
+                <tipoProyectil>Tampoco tengo</tipoProyectil>
+
+
+
+                <daño> Adivina que , tampoco tengo  </daño>
+
+
+
 
             </nini>
-            <nini tipoNini="">
+            <nini tipoNini="DIEGO" imagen="Animaciones/Ninis/DiegoEsperando.gif" >
+
+
+
+                
+
+                <nombre> -- DIEGO --</nombre>
+
+                <descripcion> Es Diego y lanza notas </descripcion>
+
+                <coste> 100 </coste>
+
+                <vida>100</vida>
+
+                <alcanceAtaque>Largo</alcanceAtaque>
+
+                <radioAtaque>Un objetivo</radioAtaque>
+
+                <tipoProyectil>Nota</tipoProyectil>
+
+
+                <daño> 20 </daño>
+            </nini>
+            <nini tipoNini="HAMIL" imagen="Animaciones/Ninis/Hamil_Idle.gif">
+
+                
+
+                <nombre> -- HAMIL --  </nombre>
+
+                <descripcion> Es Hamil y mete espadazos  </descripcion>
+
+                <coste> 450 </coste>
+
+                <vida> 300</vida>
+
+                <alcanceAtaque>Cuerpo a Cuerpo</alcanceAtaque>
+
+                <radioAtaque>En Area</radioAtaque>
+
+                <tipoProyectil>No tengo</tipoProyectil>
+
+
+                <daño> 50 </daño>
+            </nini>
+            <nini tipoNini="ADRIPAN" imagen="Animaciones/Ninis/AdripanEsperando.gif">
+
+        
+
+                <nombre> -- ADRIPAN --  </nombre>
+
+                <descripcion> Es Adripan y explota  </descripcion>
+
+                <coste> 25 </coste>
+
+                <vida> 80</vida>
+
+                <alcanceAtaque>Cuerpo a Cuerpo</alcanceAtaque>
+
+                <radioAtaque>En Area</radioAtaque>
+
+                <tipoProyectil>No Tengo</tipoProyectil>
+
+
+                <daño> 600 </daño>
+            </nini>
+            <nini tipoNini="CALLEJO" imagen="Animaciones/Ninis/Callejo_Idle.gif">
+
+            
+
+                <nombre> -- CALLEJO --  </nombre>
+
+                <descripcion> Es Callejo y es Callejo  </descripcion>
+
+                <coste> 50 </coste>
+
+                <vida>200</vida>
+
+                <alcanceAtaque>No Tengo</alcanceAtaque>
+
+                <radioAtaque>Tampoco tengo</radioAtaque>
+
+                <tipoProyectil>Inexistente</tipoProyectil>
+
+
+                <daño>  Nulo </daño>
 
             </nini>
-            <nini tipoNini="">
+            <nini tipoNini="RAUL" imagen="Animaciones/Ninis/Raul_Idle.gif">
+
+            
+
+                <nombre> -- RAUL --  </nombre>
+
+                <descripcion> Es Raul y escupe pikmin  </descripcion>
+
+                <coste>  300 </coste>
+
+                <vida>75</vida>
+
+                <alcanceAtaque>Lejano</alcanceAtaque>
+
+                <radioAtaque>Primer Objetivo de su linea, de la de arriba y de la de abajo</radioAtaque>
+
+                <tipoProyectil>Pikme</tipoProyectil>
+
+
+                <daño> 20 </daño>
 
             </nini>
-            <nini tipoNini="">
+            <nini tipoNini="JUD" imagen="Animaciones/Ninis/Jud_Idle.gif">
+
+        
+
+                <nombre> -- JUD --   </nombre>
+
+                <descripcion> Es Jud y hace malabares y quema tus proyectiles </descripcion>
+
+                <coste> 175 </coste>
+
+                <vida>125</vida>
+
+                <alcanceAtaque>No tiene</alcanceAtaque>
+
+                <radioAtaque> No tiene</radioAtaque>
+
+                <tipoProyectil>No tiene</tipoProyectil>
+
+
+                <daño> Multiplica daño proyectil que quema </daño>
 
             </nini>
-            <nini tipoNini="">
+            <nini tipoNini="LORENA" imagen="Animaciones/Ninis/Lorena_Idle.gif">
 
-            </nini>
-            <nini tipoNini="">
+              
+                <nombre> -- LORENA --  </nombre>
 
-            </nini>
-            <nini tipoNini="">
+                <descripcion> Es Lorena y cura todo  </descripcion>
 
-            </nini>
-            <nini tipoNini="">
+                <coste> 25 </coste>
+
+                <vida> 500</vida>
+
+                <alcanceAtaque>Todas las casillas/alcanceAtaque>
+
+                <radioAtaque>No tiene</radioAtaque>
+
+                <tipoProyectil>No tiene</tipoProyectil>
+
+
+                <daño> Cura al maximo </daño>
 
             </nini>
         </ninisJugados>
+
+        <fecha>
+        <dia>14</dia>
+        <mes>05</mes>
+        <año>2026</año>
+        </fecha>
+        
 
         <tiempoJugado>
             <horas>0</horas>
@@ -37,11 +197,639 @@
             <segundos>27</segundos>
         </tiempoJugado>
 
-        <cosasMatadas> 200 </cosasMatadas>
+        <cosasMatadas> 100 </cosasMatadas>
         <ninisMuertos> 10 </ninisMuertos>
-
+        <ninisEliminados> 1 </ninisEliminados>
+        <butanitosTotales> 3000 </butanitosTotales>
         <puntuaciónTotal>1990</puntuaciónTotal>
 
 
+        <logros>
+            <logro idLogro="01"  dificultad=" Muy Facilito" completado="Si"  > 
+                <titulo>Planta tu primera planta</titulo>
+                <minuto>0.06</minuto>
+                <medallita>
+                <tipoMedalla>Estiercol</tipoMedalla>
+                <puntuacionLogro>5</puntuacionLogro>
+
+                </medallita>   
+                
+            </logro>   
+
+              <logro idLogro="02"  dificultad="Facilito" completado="Si"  > 
+               <titulo>Planta dos filas de Luises</titulo>
+                <minuto>3</minuto>
+                <medallita>
+                
+                  <tipoMedalla>Bronce</tipoMedalla>
+                <puntuacionLogro>10</puntuacionLogro>
+
+                </medallita>   
+            
+            </logro>
+              <logro idLogro="03"  dificultad="Intermedito" completado="No"  > 
+                <titulo>Mata 200 cosas</titulo>
+                <minuto></minuto>
+                <medallita>
+                  <tipoMedalla>Plata</tipoMedalla>
+                <puntuacionLogro>15</puntuacionLogro>
+                
+                </medallita>   
+               
+               
+            </logro>
+              <logro idLogro="04"  dificultad="Dificilito" completado="No"  > 
+                <titulo>Llega a la oleada 10</titulo>
+                <minuto></minuto>
+                <medallita>
+                
+                  <tipoMedalla>Oro</tipoMedalla>
+                <puntuacionLogro>20</puntuacionLogro>
+                
+                </medallita>   
+               
+            </logro>
+              <logro idLogro="05"  dificultad="Casi Imposible" completado="No"  > 
+                <titulo>Llega a la oleada 10 sin que muera ningun nini</titulo>
+                <minuto></minuto>
+                <medallita>
+                
+                  <tipoMedalla>Butanito</tipoMedalla>
+                <puntuacionLogro>50</puntuacionLogro>
+                </medallita>   
+              
+            </logro> 
+
+             <logro idLogro="06"  dificultad="Secreto" completado="No"  > 
+                <titulo>Elimina treinta y tres angine de poitrine</titulo>
+                <minuto></minuto>
+                <medallita>
+                
+                  <tipoMedalla>Diamante</tipoMedalla>
+                <puntuacionLogro>33</puntuacionLogro>
+                </medallita>   
+               
+            </logro> 
+
+        </logros>
+
+
+
     </jugador>
+
+
+     <jugador id="00002">
+        <nombre>Diego</nombre>
+
+        <ninisJugados>
+            <nini tipoNini="LUIS" imagen="Animaciones/Ninis/Lis.gif">
+
+            
+                <nombre>-- LUIS --  </nombre>
+
+
+                <descripcion>  Es Luis y roba butanitos </descripcion>
+
+                <coste> 50 </coste>
+
+                <vida>75 </vida>
+
+                <alcanceAtaque>Genero Butanitos</alcanceAtaque>
+
+                <radioAtaque>No tengo</radioAtaque>
+
+                <tipoProyectil>Tampoco tengo</tipoProyectil>
+
+
+
+                <daño> Adivina que , tampoco tengo  </daño>
+
+
+
+
+            </nini>
+            <nini tipoNini="DIEGO" imagen="Animaciones/Ninis/DiegoEsperando.gif" >
+
+
+
+                
+
+                <nombre> -- DIEGO --</nombre>
+
+                <descripcion> Es Diego y lanza notas </descripcion>
+
+                <coste> 100 </coste>
+
+                <vida>100</vida>
+
+                <alcanceAtaque>Largo</alcanceAtaque>
+
+                <radioAtaque>Un objetivo</radioAtaque>
+
+                <tipoProyectil>Nota</tipoProyectil>
+
+
+                <daño> 20 </daño>
+            </nini>
+            <nini tipoNini="HAMIL" imagen="Animaciones/Ninis/Hamil_Idle.gif">
+
+                
+
+                <nombre> -- HAMIL --  </nombre>
+
+                <descripcion> Es Hamil y mete espadazos  </descripcion>
+
+                <coste> 450 </coste>
+
+                <vida> 300</vida>
+
+                <alcanceAtaque>Cuerpo a Cuerpo</alcanceAtaque>
+
+                <radioAtaque>En Area</radioAtaque>
+
+                <tipoProyectil>No tengo</tipoProyectil>
+
+
+                <daño> 50 </daño>
+            </nini>
+            <nini tipoNini="ADRIPAN" imagen="Animaciones/Ninis/AdripanEsperando.gif">
+
+        
+
+                <nombre> -- ADRIPAN --  </nombre>
+
+                <descripcion> Es Adripan y explota  </descripcion>
+
+                <coste> 25 </coste>
+
+                <vida> 80</vida>
+
+                <alcanceAtaque>Cuerpo a Cuerpo</alcanceAtaque>
+
+                <radioAtaque>En Area</radioAtaque>
+
+                <tipoProyectil>No Tengo</tipoProyectil>
+
+
+                <daño> 600 </daño>
+            </nini>
+            <nini tipoNini="CALLEJO" imagen="Animaciones/Ninis/Callejo_Idle.gif">
+
+            
+
+                <nombre> -- CALLEJO --  </nombre>
+
+                <descripcion> Es Callejo y es Callejo  </descripcion>
+
+                <coste> 50 </coste>
+
+                <vida>200</vida>
+
+                <alcanceAtaque>No Tengo</alcanceAtaque>
+
+                <radioAtaque>Tampoco tengo</radioAtaque>
+
+                <tipoProyectil>Inexistente</tipoProyectil>
+
+
+                <daño>  Nulo </daño>
+
+            </nini>
+            <nini tipoNini="RAUL" imagen="Animaciones/Ninis/Raul_Idle.gif">
+
+            
+
+                <nombre> -- RAUL --  </nombre>
+
+                <descripcion> Es Raul y escupe pikmin  </descripcion>
+
+                <coste>  300 </coste>
+
+                <vida>75</vida>
+
+                <alcanceAtaque>Lejano</alcanceAtaque>
+
+                <radioAtaque>Primer Objetivo de su linea, de la de arriba y de la de abajo</radioAtaque>
+
+                <tipoProyectil>Pikme</tipoProyectil>
+
+
+                <daño> 20 </daño>
+
+            </nini>
+            <nini tipoNini="JUD" imagen="Animaciones/Ninis/Jud_Idle.gif">
+
+        
+
+                <nombre> -- JUD --   </nombre>
+
+                <descripcion> Es Jud y hace malabares y quema tus proyectiles </descripcion>
+
+                <coste> 175 </coste>
+
+                <vida>125</vida>
+
+                <alcanceAtaque>No tiene</alcanceAtaque>
+
+                <radioAtaque> No tiene</radioAtaque>
+
+                <tipoProyectil>No tiene</tipoProyectil>
+
+
+                <daño> Multiplica daño proyectil que quema </daño>
+
+            </nini>
+            <nini tipoNini="LORENA" imagen="Animaciones/Ninis/Lorena_Idle.gif">
+
+              
+                <nombre> -- LORENA --  </nombre>
+
+                <descripcion> Es Lorena y cura todo  </descripcion>
+
+                <coste> 25 </coste>
+
+                <vida> 500</vida>
+
+                <alcanceAtaque>Todas las casillas/alcanceAtaque>
+
+                <radioAtaque>No tiene</radioAtaque>
+
+                <tipoProyectil>No tiene</tipoProyectil>
+
+
+                <daño> Cura al maximo </daño>
+
+            </nini>
+        </ninisJugados>
+
+        <fecha>
+        <dia>14</dia>
+        <mes>05</mes>
+        <año>2026</año>
+        </fecha>
+        
+
+        <tiempoJugado>
+            <horas>0</horas>
+            <minutos>5</minutos>
+            <segundos>27</segundos>
+        </tiempoJugado>
+
+        <cosasMatadas> 100 </cosasMatadas>
+        <ninisMuertos> 10 </ninisMuertos>
+        <ninisEliminados> 1 </ninisEliminados>
+        <butanitosTotales> 3000 </butanitosTotales>
+        <puntuaciónTotal>1990</puntuaciónTotal>
+
+
+        <logros>
+            <logro idLogro="01"  dificultad=" Muy Facilito" completado="Si"  > 
+                <titulo>Planta tu primera planta</titulo>
+                <minuto>0.06</minuto>
+                <medallita>
+                <tipoMedalla>Estiercol</tipoMedalla>
+                <puntuacionLogro>5</puntuacionLogro>
+
+                </medallita>   
+                
+            </logro>   
+
+              <logro idLogro="02"  dificultad="Facilito" completado="Si"  > 
+               <titulo>Planta dos filas de Luises</titulo>
+                <minuto>3</minuto>
+                <medallita>
+                
+                  <tipoMedalla>Bronce</tipoMedalla>
+                <puntuacionLogro>10</puntuacionLogro>
+
+                </medallita>   
+            
+            </logro>
+              <logro idLogro="03"  dificultad="Intermedito" completado="No"  > 
+                <titulo>Mata 200 cosas</titulo>
+                <minuto></minuto>
+                <medallita>
+                  <tipoMedalla>Plata</tipoMedalla>
+                <puntuacionLogro>15</puntuacionLogro>
+                
+                </medallita>   
+               
+               
+            </logro>
+              <logro idLogro="04"  dificultad="Dificilito" completado="No"  > 
+                <titulo>Llega a la oleada 10</titulo>
+                <minuto></minuto>
+                <medallita>
+                
+                  <tipoMedalla>Oro</tipoMedalla>
+                <puntuacionLogro>20</puntuacionLogro>
+                
+                </medallita>   
+               
+            </logro>
+              <logro idLogro="05"  dificultad="Casi Imposible" completado="No"  > 
+                <titulo>Llega a la oleada 10 sin que muera ningun nini</titulo>
+                <minuto></minuto>
+                <medallita>
+                
+                  <tipoMedalla>Butanito</tipoMedalla>
+                <puntuacionLogro>50</puntuacionLogro>
+                </medallita>   
+              
+            </logro> 
+
+             <logro idLogro="06"  dificultad="Secreto" completado="No"  > 
+                <titulo>Elimina treinta y tres angine de poitrine</titulo>
+                <minuto></minuto>
+                <medallita>
+                
+                  <tipoMedalla>Diamante</tipoMedalla>
+                <puntuacionLogro>33</puntuacionLogro>
+                </medallita>   
+               
+            </logro> 
+
+        </logros>
+
+
+
+    </jugador>
+
+
+    <jugador id="00003">
+        <nombre>Xx_ProJuego_xX</nombre>
+
+        <ninisJugados>
+            <nini tipoNini="LUIS" imagen="Animaciones/Ninis/Lis.gif">
+
+            
+                <nombre>-- LUIS --  </nombre>
+
+                <descripcion>  Es Luis y roba butanitos </descripcion>
+
+                <coste> 50 </coste>
+
+                <vida>75 </vida>
+
+                <alcanceAtaque>Genero Butanitos</alcanceAtaque>
+
+                <radioAtaque>No tengo</radioAtaque>
+
+                <tipoProyectil>Tampoco tengo</tipoProyectil>
+
+
+
+                <daño> Adivina que , tampoco tengo  </daño>
+
+
+
+
+            </nini>
+            <nini tipoNini="DIEGO" imagen="Animaciones/Ninis/DiegoEsperando.gif" >
+
+
+
+                
+
+                <nombre> -- DIEGO --</nombre>
+
+                <descripcion> Es Diego y lanza notas </descripcion>
+
+                <coste> 100 </coste>
+
+                <vida>100</vida>
+
+                <alcanceAtaque>Largo</alcanceAtaque>
+
+                <radioAtaque>Un objetivo</radioAtaque>
+
+                <tipoProyectil>Nota</tipoProyectil>
+
+
+                <daño> 20 </daño>
+            </nini>
+            <nini tipoNini="HAMIL" imagen="Animaciones/Ninis/Hamil_Idle.gif">
+
+                
+
+                <nombre> -- HAMIL --  </nombre>
+
+                <descripcion> Es Hamil y mete espadazos  </descripcion>
+
+                <coste> 450 </coste>
+
+                <vida> 300</vida>
+
+                <alcanceAtaque>Cuerpo a Cuerpo</alcanceAtaque>
+
+                <radioAtaque>En Area</radioAtaque>
+
+                <tipoProyectil>No tengo</tipoProyectil>
+
+
+                <daño> 50 </daño>
+            </nini>
+            <nini tipoNini="ADRIPAN" imagen="Animaciones/Ninis/AdripanEsperando.gif">
+
+        
+
+                <nombre> -- ADRIPAN --  </nombre>
+
+                <descripcion> Es Adripan y explota  </descripcion>
+
+                <coste> 25 </coste>
+
+                <vida> 80</vida>
+
+                <alcanceAtaque>Cuerpo a Cuerpo</alcanceAtaque>
+
+                <radioAtaque>En Area</radioAtaque>
+
+                <tipoProyectil>No Tengo</tipoProyectil>
+
+
+                <daño> 600 </daño>
+            </nini>
+            <nini tipoNini="CALLEJO" imagen="Animaciones/Ninis/Callejo_Idle.gif">
+
+            
+
+                <nombre> -- CALLEJO --  </nombre>
+
+                <descripcion> Es Callejo y es Callejo  </descripcion>
+
+                <coste> 50 </coste>
+
+                <vida>200</vida>
+
+                <alcanceAtaque>No Tengo</alcanceAtaque>
+
+                <radioAtaque>Tampoco tengo</radioAtaque>
+
+                <tipoProyectil>Inexistente</tipoProyectil>
+
+
+                <daño>  Nulo </daño>
+
+            </nini>
+            <nini tipoNini="RAUL" imagen="Animaciones/Ninis/Raul_Idle.gif">
+
+            
+
+                <nombre> -- RAUL --  </nombre>
+
+                <descripcion> Es Raul y escupe pikmin  </descripcion>
+
+                <coste>  300 </coste>
+
+                <vida>75</vida>
+
+                <alcanceAtaque>Lejano</alcanceAtaque>
+
+                <radioAtaque>Primer Objetivo de su linea, de la de arriba y de la de abajo</radioAtaque>
+
+                <tipoProyectil>Pikme</tipoProyectil>
+
+
+                <daño> 20 </daño>
+
+            </nini>
+            <nini tipoNini="JUD" imagen="Animaciones/Ninis/Jud_Idle.gif">
+
+        
+
+                <nombre> -- JUD --   </nombre>
+
+                <descripcion> Es Jud y hace malabares y quema tus proyectiles </descripcion>
+
+                <coste> 175 </coste>
+
+                <vida>125</vida>
+
+                <alcanceAtaque>No tiene</alcanceAtaque>
+
+                <radioAtaque> No tiene</radioAtaque>
+
+                <tipoProyectil>No tiene</tipoProyectil>
+
+
+                <daño> Multiplica daño proyectil que quema </daño>
+
+            </nini>
+            <nini tipoNini="LORENA" imagen="Animaciones/Ninis/Lorena_Idle.gif">
+
+              
+                <nombre> -- LORENA --  </nombre>
+
+                <descripcion> Es Lorena y cura todo  </descripcion>
+
+                <coste> 25 </coste>
+
+                <vida> 500</vida>
+
+                <alcanceAtaque>Todas las casillas/alcanceAtaque>
+
+                <radioAtaque>No tiene</radioAtaque>
+
+                <tipoProyectil>No tiene</tipoProyectil>
+
+
+                <daño> Cura al maximo </daño>
+
+            </nini>
+        </ninisJugados>
+
+        <fecha>
+        <dia>14</dia>
+        <mes>05</mes>
+        <año>2026</año>
+        </fecha>
+        
+
+        <tiempoJugado>
+            <horas>0</horas>
+            <minutos>5</minutos>
+            <segundos>27</segundos>
+        </tiempoJugado>
+
+        <cosasMatadas> 100 </cosasMatadas>
+        <ninisMuertos> 10 </ninisMuertos>
+        <ninisEliminados> 1 </ninisEliminados>
+        <butanitosTotales> 3000 </butanitosTotales>
+        <puntuaciónTotal>1990</puntuaciónTotal>
+
+
+        <logros>
+            <logro idLogro="01"  dificultad=" Muy Facilito" completado="Si"  > 
+                <titulo>Planta tu primera planta</titulo>
+                <minuto>0.06</minuto>
+                <medallita>
+                <tipoMedalla>Estiercol</tipoMedalla>
+                <puntuacionLogro>5</puntuacionLogro>
+
+                </medallita>   
+                
+            </logro>   
+
+              <logro idLogro="02"  dificultad="Facilito" completado="Si"  > 
+               <titulo>Planta dos filas de Luises</titulo>
+                <minuto>3</minuto>
+                <medallita>
+                
+                  <tipoMedalla>Bronce</tipoMedalla>
+                <puntuacionLogro>10</puntuacionLogro>
+
+                </medallita>   
+            
+            </logro>
+              <logro idLogro="03"  dificultad="Intermedito" completado="No"  > 
+                <titulo>Mata 200 cosas</titulo>
+                <minuto></minuto>
+                <medallita>
+                  <tipoMedalla>Plata</tipoMedalla>
+                <puntuacionLogro>15</puntuacionLogro>
+                
+                </medallita>   
+               
+               
+            </logro>
+              <logro idLogro="04"  dificultad="Dificilito" completado="No"  > 
+                <titulo>Llega a la oleada 10</titulo>
+                <minuto></minuto>
+                <medallita>
+                
+                  <tipoMedalla>Oro</tipoMedalla>
+                <puntuacionLogro>20</puntuacionLogro>
+                
+                </medallita>   
+               
+            </logro>
+              <logro idLogro="05"  dificultad="Casi Imposible" completado="No"  > 
+                <titulo>Llega a la oleada 10 sin que muera ningun nini</titulo>
+                <minuto></minuto>
+                <medallita>
+                
+                  <tipoMedalla>Butanito</tipoMedalla>
+                <puntuacionLogro>50</puntuacionLogro>
+                </medallita>   
+              
+            </logro> 
+
+             <logro idLogro="06"  dificultad="Secreto" completado="No"  > 
+                <titulo>Elimina treinta y tres angine de poitrine</titulo>
+                <minuto></minuto>
+                <medallita>
+                
+                  <tipoMedalla>Diamante</tipoMedalla>
+                <puntuacionLogro>33</puntuacionLogro>
+                </medallita>   
+               
+            </logro> 
+
+        </logros>
+
+
+
+    </jugador>
+
 </jugadores>
