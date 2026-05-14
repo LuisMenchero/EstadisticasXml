@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jugadores>
+    <jugador id="00001">
+        <nombre>LuisRx8</nombre>
+
+        <ninisJugados>
+            <nini tipoNini="">
+
+            </nini>
+            <nini tipoNini="">
+
+            </nini>
+            <nini tipoNini="">
+
+            </nini>
+            <nini tipoNini="">
+
+            </nini>
+            <nini tipoNini="">
+
+            </nini>
+            <nini tipoNini="">
+
+            </nini>
+            <nini tipoNini="">
+
+            </nini>
+            <nini tipoNini="">
+
+            </nini>
+        </ninisJugados>
+
+        <tiempoJugado>
+            <horas>0</horas>
+            <minutos>5</minutos>
+            <segundos>27</segundos>
+        </tiempoJugado>
+
+        <cosasMatadas> 200 </cosasMatadas>
+        <ninisMuertos> 10 </ninisMuertos>
+
+        <puntuaciónTotal>1990</puntuaciónTotal>
+
+
+    </jugador>
+</jugadores>
